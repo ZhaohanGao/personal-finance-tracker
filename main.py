@@ -102,7 +102,7 @@ def main():
             print("Invalid choice. Enter 1, 2 or 3.")
 
 
-# prevents the main function from running if it is imported as a module
+# prevents the main function from running if it is imported as a module or used by other person.
 if __name__ == "__main__":
     main()
 
